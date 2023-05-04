@@ -17,50 +17,46 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="resource/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
+      <div class="container d-flex align-items-center main-nav">
 
-      <h1 class="logo me-auto"><a href="index.html">Sidra</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link" href="#">Company Profile</a></li>
-              <li><a class="nav-link" href="#">CEO’S Message</a></li>
-              <li><a class="nav-link" href="#">Vision & Mission</a></li>
+        <a href="index.html" class="logo me-auto"><img src="resource/img/logo.png" alt="" class="img-fluid"></a>
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a class="nav-link" href="#">Company Profile</a></li>
+                <li><a class="nav-link" href="#">CEO’S Message</a></li>
+                <li><a class="nav-link" href="#">Vision & Mission</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a class="nav-link" href="#">Sidra Hardware</a></li>
+                <li><a class="nav-link" href="#">Sidra Electrical</a></li>
+                <li><a class="nav-link" href="#">Sidra Spare Parts</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="#">Clients</a></li>
+            <li><a class="nav-link" href="#">Career</a></li>
+            <li><a class="nav-link" href="#">Contact Us</a></li>
             </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link" href="#">Sidra Hardware</a></li>
-              <li><a class="nav-link" href="#">Sidra Electrical</a></li>
-              <li><a class="nav-link" href="#">Sidra Spare Parts</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link" href="#">Clients</a></li>
-          <li><a class="nav-link" href="#">Career</a></li>
-          <li><a class="nav-link" href="#">Contact Us</a></li>
+            </li>
           </ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
     </div>
   </header><!-- End Header -->
 
@@ -69,7 +65,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
           <h1>WELCOME TO SIDRA GROUP</h1>
           <h2>product range specializing in Contracting and trading of industrial materials</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
@@ -77,30 +73,304 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="resource/img/hero-img.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
 
   </section><!-- End Hero -->
 
-  <main id="main">
+  <main class="main">
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="secondary-heading">About Us</h2>
+        </div>
+        <div class="row about-box">
+          <div class="col-md-6 margin-top-medium">
+            <div>
+              <h3 class="heading-third">SIDRA GROUP</h3>
+            </div>
+            <div class="about-box__content">
+              <p class="paragraph">
+                SIDRA Equipments Trading Est. was established in 2002 in Dammam, the industrial city of the Kingdom of Saudi Arabia. We have a diversified product range specializing in Contracting and trading of industrial materials, hardware
+              </p>
+              <div class="about-box__highlights">
+                <div class="about-box__highlight">
+                  <div class="about-box__highlight--icon">
+                    <i class="bi bi-check-all icon"></i>
+                  </div>
+                  <div class="about-box__highlight--text">
+                    <span>booming expansion based on a substantial business portfolio</span>
+                  </div>
+                </div>
+                <div class="about-box__highlight">
+                  <div class="about-box__highlight--icon">
+                    <i class="bi bi-check-all icon"></i>
+                  </div>
+                  <div class="about-box__highlight--text">
+                    <span>excellent track records in supplying quality materials and services</span>
+                  </div>
+                </div>
+                <div class="about-box__highlight">
+                  <div class="about-box__highlight--icon">
+                    <i class="bi bi-check-all icon"></i>
+                  </div>
+                  <div class="about-box__highlight--text">
+                    <span>best service for our customers through a talented and experienced team</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center justify-content-lg-start about-box__button">
+              <a href="#about" class="btn-get-started scrollto button">read more</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-image-box">
+              <img src="/resource/img/about.png" alt="about image" class="about-image-box__img img-fluid">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+     <!-- ======= Why Us Section ======= -->
+     <section id="why-us" class="why-us section-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="content">
+                <h3>trading of industrial materials, hardware, plumbing and electrical suppliers</strong></h3>
+              </div>
+  
+              <div class="accordion-list">
+                <ul>
+                  <li>
+                    <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Sidra Hardware <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-1" class="collapse show">
+                      <p>
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                      </p>
+                    </div>
+                  </li>
+  
+                  <li>
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Sidra Electrical <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                      <p>
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                      </p>
+                    </div>
+                  </li>
+  
+                  <li>
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Sidra Spare Parts <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                      <p>
+                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                      </p>
+                    </div>
+                  </li>
+  
+                </ul>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+    </section><!-- End Why Us Section -->
+
+<section class="products">
+<div class="row product-caption">
+  <h2 class="secondary-heading">our Products</h2>
+</div>
+<div class="container">
+  <div class="row products__slider-box">
+    <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-3 products__slider-box__shape">
+              <figure class="products__slider-box__shape__box">
+                <img src="/resource/img/products/had_pro_1.png" class="products__slider-box__img" alt="Product 1">
+              </figure>
+            </div>
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_10.png" class="products__slider-box__img" alt="Product 2">
+            </div>
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_10.png" class="products__slider-box__img" alt="Product 2">
+            </div>
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_11.png" class="products__slider-box__img" alt="Product 3">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_2.png" class="products__slider-box__img" alt="Product 4">
+            </div>
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_2.png" class="products__slider-box__img" alt="Product 4">
+            </div>
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_3.png" class="products__slider-box__img" alt="Product 5">
+            </div>
+            <div class="col-md-3 products__slider-box__shape">
+              <img src="/resource/img/products/had_pro_4.png" class="products__slider-box__img" alt="Product 6">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon products__slider-box__icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon products__slider-box__icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="row"  align="center">
+    <div>
+      <a href="#about" class="btn-get-started scrollto button">All Products</a>
+    </div>
+  </div>
+</div>
+</section>
+<section class="brands">
+  <div class="row">
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/general-electric-black-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
+        </div>
+        <div class="slide">
+          <img class="brand" src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   </main><!-- End #main -->
 
-  
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Sidra</h3>
+            <p>
+              Omar Ibn Al Khattab St., Dhalla (Near Driving School),
+              P.O. Box: 72160, Dammam: 31518,
+              Kingdom of Saudi Arabia<br><br>
+              <strong>Phone:</strong>013 8211149<br>
+              <strong>Email:</strong> sales@sidra-group.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Products</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sidra Hardware</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sidra Electrical</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sidra Spare Parts</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Sidra</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

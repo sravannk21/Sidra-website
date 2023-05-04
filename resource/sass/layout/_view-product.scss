@@ -1,0 +1,40 @@
+.product{
+    text-align: center;
+    &__img {
+        transition: all .3s;
+        filter: blur(3px) brightness(80%);
+            &:hover {
+            cursor: pointer;
+            filter: blur(0) brightness(80%);
+        }
+    }
+}
+
+.product-box {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0px 0 2rem rgba(55, 81, 126, 0.08);
+    padding: 2rem;
+
+    &__caption {
+        text-transform: uppercase;
+        color: #696969;
+        position: relative;
+        &::after {
+            position: absolute;
+            top: .4rem;
+            left: -1rem;
+            content: "";
+            display: block;
+            width: .4rem;
+            height: 1.6rem;
+            background-color: #fb6731;
+        }
+    }
+    &__desc {
+        text-transform: capitalize;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+.brand {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+.brands {
+  margin: 4rem 0;
+}

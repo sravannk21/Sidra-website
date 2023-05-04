@@ -1,0 +1,18 @@
+.button:link,
+.button:visited {
+    padding: .6rem 1.5rem;
+    text-transform: capitalize;
+    color: #696969;
+    border-radius: 100px;
+    border: 2px solid #fb6731;
+    background-color: transparent;
+    transition: all .3s;
+    overflow: hidden;
+
+    &:hover,
+    &:active {
+        background-color: #444444;
+        border: 2px solid transparent;
+        color: #fff;
+    }
+}

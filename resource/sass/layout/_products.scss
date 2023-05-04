@@ -1,0 +1,50 @@
+
+.product-box {
+    position: relative;
+    &:hover &__viewButton {
+        opacity: 1;
+        bottom: 20%;
+        transition: all .4s ease-in;
+    }
+    &:hover &__card-title {
+        opacity: 1;
+        bottom: 50%;
+        transition: all .4s ease-in;
+    }
+    &__card-title {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    &__viewButton {
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+.product-gallery{
+    margin: 4rem 0;
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+    .secondary-heading{
+        margin: 3rem 0;
+    }
+    .product-img {
+        transform:scale(1);
+        transition: all .3s;
+        filter: none;
+        &:hover {
+            transform: scale(1.05);
+            filter: blur(3px) brightness(80%);
+        }
+    }
+    .paragraph {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
