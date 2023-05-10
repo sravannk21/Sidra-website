@@ -1,0 +1,104 @@
+
+
+.sec-title h2{
+position: relative;
+display: block;
+font-size:40px;
+line-height: 1.28em;
+color: #222222;
+font-weight: 600;
+padding-bottom:18px;
+}
+
+.sec-title h2:before{
+position:absolute;
+content:'';
+left:0px;
+bottom:0px;
+width:50px;
+height:3px;
+background-color: rgba(251, 103, 49, 1);
+}
+
+.btn-style-one{
+position: relative;
+display: inline-block;
+font-size: 17px;
+line-height: 30px;
+color: #ffffff;
+padding: .7rem 2.6rem;
+font-weight: 600;
+overflow: hidden;
+letter-spacing: 0.02em;
+background-color: #00aeef;
+}
+
+.btn-style-one:hover{
+background-color: #0794c9;
+color: #ffffff;
+}
+.about-section{
+position: relative;
+padding: 8rem 0;
+}
+
+.about-section .sec-title{
+margin-bottom: 3rem;
+}
+
+.about-section .content-column{
+position: relative;
+margin-bottom: 4rem;
+}
+
+
+.about-section .text{
+margin-bottom: 1rem;
+font-size: 1rem;
+line-height: 26px;
+color: #848484;
+font-weight: 400;
+}
+
+.about-section .list-style-one{
+margin-bottom: 3rem;
+}
+
+.about-section .btn-box{
+position: relative;
+}
+.contact-us {
+    color: #fb6731;
+    padding: 0 !important;
+}
+.about-section .btn-box a{
+padding: .5rem 1rem;
+}
+.image-1 {
+    margin-top: 8rem;
+    text-align: center;
+}
+.about-section .image-1 img{
+box-shadow: 0 0.2rem 2.4rem 0.3rem rgba(8,13,62,.15);
+border-radius: 3.5rem;
+height: 25rem;
+}
+
+.vision-box {
+    box-shadow: 0px 0 2rem rgba(55, 81, 126, 0.08);
+    padding: 3rem;
+
+    &__text {
+        margin-top: 2rem;
+    }
+    &__caption {
+        color: #696969;
+    }
+    .paragraph {
+        color: #696969
+    }
+}
+.vision {
+    padding: 4rem 0;
+    background-color: #efefef;
+}

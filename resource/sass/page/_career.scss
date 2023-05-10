@@ -1,0 +1,37 @@
+.career-box{
+    width: 80%;
+    margin: 2rem auto;
+    box-shadow: 0px .5rem 2rem rgba(41, 65, 106, 0.08);
+    height: auto;
+    padding: 1rem;
+    &__title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.2rem;
+        position: relative;
+        padding-left: 1rem;
+        &::before {
+            content: '';
+            display: block;
+            width: .4rem;
+            height: 1.2rem;
+            background-color: red;
+            position: absolute;
+            top: .3rem;
+            left: 0;
+        }
+    }
+    &__description{
+        margin-top: 2rem
+    }
+
+    &__icon {
+        font-size: 4rem;
+    }
+    &__submit {
+        margin: 2rem 0;
+    }
+}
+.career {
+    margin: 4rem 0;
+}

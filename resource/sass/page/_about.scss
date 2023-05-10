@@ -26,11 +26,15 @@
     }
 }
 
+.sec-title {
+    margin-top: 4rem;
+}
+
 .about-image-box {
     text-align: right;
     &__img{
         width: auto;
-        height: 30rem;
+        height: 25rem;
         margin-top: 3rem;
         transition: transform .3s;
 
@@ -40,5 +44,5 @@
     }
 }
 .icon {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }

@@ -23,31 +23,35 @@
         <link href="resource/css/style.css" rel="stylesheet">
       </head>
 <body>
-    <main class="main">
-        <div class="container">
-            <section class="breadcrumb">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item active" aria-current="page">Home</li>
-                    </ol>
-                  </nav>
-                  
-                  <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Library</li>
-                    </ol>
-                  </nav>
-                  
-                  <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">Library</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Data</li>
-                    </ol>
-                  </nav>
-            </section>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container d-flex align-items-center">
+            <a href="index.html" class="logo me-auto"><img src="/resource/img/logo.png" alt="" class="img-fluid"></a>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto" href="#">Home</a></li>
+              <li><a class="nav-link scrollto" href="about.html">About Us</a></li>
+              <li><a class="nav-link scrollto" href="products.html">Products</a></li>
+              <li><a class="nav-link   scrollto" href="career.html">Career</a></li>
+              <li><a class="nav-link   scrollto" href="contact.html">Contact Us</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
         </div>
+      </header><!-- End Header -->
+    <main class="main">
+        <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center breadcrumb-bg">
+        <div class="container position-relative d-flex flex-column align-items-center">
+  
+          <h2>Products</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Products</li>
+          </ol>
+  
+        </div>
+      </div><!-- End Breadcrumbs -->
         
         <section class="products">
             <div class="product-gallery">
@@ -62,9 +66,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_1.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -73,9 +74,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_10.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -84,9 +82,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_11.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -95,9 +90,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_2.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -113,9 +105,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_3.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -124,9 +113,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_4.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -135,9 +121,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_5.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -146,9 +129,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_6.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -164,9 +144,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_9.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -175,20 +152,14 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_1.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 our-product">
                             <div class="card mb-4 product-box">
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_11.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -197,9 +168,6 @@
                                 <img class="card-img-top product-img" src="/resource/img/products/had_pro_2.png" alt="Product Image">
                                 <div>
                                     <h5 class="product-box__card-title">Product 1</h5>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#about" class="btn-get-started scrollto button product-box__viewButton">read more</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -212,6 +180,7 @@
     </main>
   <!-- ======= Footer ======= -->
   <footer id="footer">
+    
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -239,24 +208,19 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Products</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sidra Hardware</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sidra Electrical</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sidra Spare Parts</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="#" class="twitter"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-whatsapp"></i></a>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Location</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d228793.23962403493!2d49.82772811922717!3d26.362278318171818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sOmar%20Ibn%20Al%20Khattab%20St.%2C%20Dhalla%20(Near%20Driving%20School)%2C%20P.O.%20Box%3A%2072160%2C%20Dammam%3A%2031518%2C%20Kingdom%20of%20Saudi%20Arabia!5e0!3m2!1sml!2sin!4v1683608680989!5m2!1sml!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
         </div>
@@ -274,8 +238,7 @@
 
   <!-- Vendor JS Files -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="/resource/js/main.js"></script>
 
 </body>
 </html>
